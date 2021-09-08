@@ -1,0 +1,40 @@
+/* CSS ANIMATIONS */
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 10%, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+
+/* LANDING PAGE ANIMATION*/
+
+.intro-animation-one { animation-delay: 0.5s; }
+.intro-animation-two { animation-delay: 1s; }
+.nav-item-one-animation { animation-delay: 1.5s; }
+.nav-item-two-animation { animation-delay: 2s; }
+.nav-item-three-animation { animation-delay: 2.5s; }
+
