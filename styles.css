@@ -39,7 +39,7 @@ body {
 .nav-item{ /* Conditions for nav items */
     float: right;
     display: block;
-    color: #A647FF;
+    color: #00848D;
     padding-left: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
@@ -48,7 +48,7 @@ body {
 }
 
 .nav-item:hover { /* Setting hover colour*/
-    color: #BC7EDD;
+    color: #782BA1;
 }
 
 /* TYPOGRAPHY */
@@ -59,7 +59,7 @@ h1{ /* Large font used on home page */
     font-size: 7.5em;
     line-height: 1;
     margin: 0;
-    color: #A647FF;
+    color: #00848D;
 }
 
 h2{
@@ -67,16 +67,17 @@ h2{
     font: weight 800;
     font-size: 3.5em;
     margin-right: 180px;
-    color: #A647FF;
+    color: #00848D;
 }
 
 a{
     text-decoration: none;
-    color: #A647FF;
+    color: #30C8D9;
 }
 
 a:hover{
-    color: #BC7EDD;
+    color: #782BA1;
+    transition: 0.4s;
 }
 
 /* HOME PAGE */
