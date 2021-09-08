@@ -171,6 +171,9 @@ a:hover{
     .nav-item{
         margin-left: 50px;
     }
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
+    }
 }
 
 @media (max-width: 380px) { /* Medium Phone - iPhone 6/7/8 */
