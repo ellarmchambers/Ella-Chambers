@@ -57,7 +57,7 @@ h1{ /* Large font used on home page */
     font-family: 'Poppins', 'sans-serif';
     font: weight 800;
     font-size: 7.5em;
-    line-height: 1;
+    line-height: 1.1;
     margin: 0;
     color: #00848D;
 }
@@ -84,7 +84,7 @@ a:hover{
 
 .intro-home{ /* Conditions for the intro */
     margin-left: 100px;
-    margin-top: 135px;
+    margin-top: 110px;
 }
 
 /* MEDIA QUERIES */
@@ -102,61 +102,113 @@ a:hover{
 /* MEDIA QUERIES - LOWER RESOLUTION SCREENS */
 
 @media (min-width: 771px) and (max-width: 1330px){
-    /* h5{
+       h1{
         font-size: 7em;
     }
-    .intro-home{
-        margin-left: 50px;
-    } */
+    h2{
+        font-size: 3em;
+        margin-right: 170px;
+    }
+    .intro-home{ 
+        margin-top: 220px;
+        margin-left: 100px;
+    } 
 }
 
 /* MEDIA QUERIES - TABLET */
 
 @media (min-width: 501px) and (max-width: 770px){ /* iPad */
-    /* h5{
+     h1{
         font-size: 6em;
     }
+    h2{
+        font-size: 3em;
+        margin-right: 70px;
+    }
     .intro-home{ 
-        margin-left: 20px;
-    } */
+        margin-top: 220px;
+        margin-left: 50px;
+    } 
 }
 
 /* MEDIA QUERIES - PHONES */
 
 @media (max-width: 500px) { /* Extra Large phone */
-    /* h5{
-        font-size: 6em;
+    h1{
+        font-size: 5.5em;
+    }
+    h2{
+        font-size: 2.8em;
+        margin-right: 30px;
     }
     .intro-home{
-        margin-left: 20px;
-        margin-top: 180px;
-    } */
+        margin-top: 220px;
+        margin-left: 40px;
+    }
+    .nav-bar{
+        padding-right: 30px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 475px) { /* Large Phone - Pixel 3a */
-    /* h5{
-        font-size: 6em;
+    h1{
+        font-size: 5.5em;
+    }
+    h2{
+        font-size: 2.5em;
+        margin-right: 30px;
     }
     .intro-home{
-        margin-left: 20px;
-        margin-top: 180px;
-    } */
+        margin-top: 220px;
+        margin-left: 40px;
+    }
+    .nav-bar{
+        padding-right: 30px;
+    }
+    .nav-item{
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 380px) { /* Medium Phone - iPhone 6/7/8 */
-    /* h5{
-        font-size: 6em;
+    h1{
+        font-size: 5em;
+    }
+    h2{
+        font-size: 2.2em;
+        margin-right: 30px;
     }
     .intro-home{
+        margin-top: 220px;
         margin-left: 20px;
-    } */
+    }
+    .nav-bar{
+        padding-right: 30px;
+    }
+    .nav-item{
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 320px) { /* Small Phone - iPhone 5/SE */
-    /* h5{
+    h1{
         font-size: 4.5em;
     }
+    h2{
+        font-size: 2em;
+        margin-right: 30px;
+    }
     .intro-home{
+        margin-top: 220px;
         margin-left: 20px;
-    } */
+    }
+    .nav-bar{
+        padding-right: 30px;
+    }
+    .nav-item{
+        margin-left: 30px;
+    }
 }
