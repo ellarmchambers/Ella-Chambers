@@ -102,7 +102,10 @@ a:hover{
 /* MEDIA QUERIES - LOWER RESOLUTION SCREENS */
 
 @media (min-width: 771px) and (max-width: 1330px){
-       h1{
+    .home-html{
+        background-image: url(assets/img/landingpage_bg-01.svg);
+    }
+    h1{
         font-size: 7em;
     }
     h2{
@@ -118,7 +121,10 @@ a:hover{
 /* MEDIA QUERIES - TABLET */
 
 @media (min-width: 501px) and (max-width: 770px){ /* iPad */
-     h1{
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_tablet.svg);
+    }
+    h1{
         font-size: 6em;
     }
     h2{
@@ -134,6 +140,9 @@ a:hover{
 /* MEDIA QUERIES - PHONES */
 
 @media (max-width: 500px) { /* Extra Large phone */
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
+    }
     h1{
         font-size: 5.5em;
     }
@@ -154,6 +163,9 @@ a:hover{
 }
 
 @media (max-width: 475px) { /* Large Phone - Pixel 3a */
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
+    }
     h1{
         font-size: 5.5em;
     }
@@ -171,12 +183,13 @@ a:hover{
     .nav-item{
         margin-left: 50px;
     }
-    .home-html{
-        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
-    }
+   
 }
 
 @media (max-width: 380px) { /* Medium Phone - iPhone 6/7/8 */
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
+    }
     h1{
         font-size: 5em;
     }
@@ -197,6 +210,9 @@ a:hover{
 }
 
 @media (max-width: 320px) { /* Small Phone - iPhone 5/SE */
+    .home-html{
+        background-image: url(assets/img/landingpage_bg_mobile_475.svg);
+    }
     h1{
         font-size: 4.5em;
     }
