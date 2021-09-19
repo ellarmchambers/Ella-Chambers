@@ -12,7 +12,7 @@ body {
     height: 100%; /* Adding to HTML and setting width to 100% ensures the image will fit various screen sizes*/
     background-image: url(assets/img/landingpage_bg-01.svg);
     background-repeat: no-repeat;
-    background-size: cover; /* Covers the width of the page */
+    background-size: cover; 
     background-position: center;
 }
 
@@ -90,13 +90,13 @@ a:hover{
 /* MEDIA QUERIES */
 
 @media (min-width: 1600px) and (max-width: 2000px){ /* Increasing Logo size on landing page on larger screens */
-    /* h5{
+    h5{
         font-size: 10em;
     }
     .intro-home{
         margin-left: 100px;
         margin-top: 135px;
-    } */
+    }
 }
 
 /* MEDIA QUERIES - LOWER RESOLUTION SCREENS */
@@ -113,8 +113,8 @@ a:hover{
         margin-right: 170px;
     }
     .intro-home{ 
-        margin-top: 220px;
-        margin-left: 100px;
+        margin-top: 200px;
+        margin-left: 70px;
     } 
 }
 
@@ -128,7 +128,7 @@ a:hover{
         font-size: 6em;
     }
     h2{
-        font-size: 3em;
+        font-size: 2.8em;
         margin-right: 70px;
     }
     .intro-home{ 
@@ -167,18 +167,19 @@ a:hover{
         background-image: url(assets/img/landingpage_bg_mobile_475.svg);
     }
     h1{
-        font-size: 5.5em;
+        font-size: 4em;
     }
     h2{
-        font-size: 2.5em;
+        font-size: 2em;
         margin-right: 30px;
     }
     .intro-home{
-        margin-top: 220px;
-        margin-left: 40px;
+        margin-top: 160px;
+        margin-left: 30px;
     }
     .nav-bar{
         padding-right: 30px;
+        padding-top: 20px;
     }
     .nav-item{
         margin-left: 50px;
@@ -191,18 +192,19 @@ a:hover{
         background-image: url(assets/img/landingpage_bg_mobile_475.svg);
     }
     h1{
-        font-size: 5em;
+        font-size: 3.5em;
     }
     h2{
-        font-size: 2.2em;
+        font-size: 2em;
         margin-right: 30px;
     }
     .intro-home{
-        margin-top: 220px;
-        margin-left: 20px;
+        margin-top: 130px;
+        margin-left: 30px;
     }
     .nav-bar{
         padding-right: 30px;
+        padding-top: 15px;
     }
     .nav-item{
         margin-left: 40px;
@@ -214,20 +216,21 @@ a:hover{
         background-image: url(assets/img/landingpage_bg_mobile_475.svg);
     }
     h1{
-        font-size: 4.5em;
+        font-size: 3em;
     }
     h2{
-        font-size: 2em;
+        font-size: 1.6em;
         margin-right: 30px;
     }
     .intro-home{
-        margin-top: 220px;
+        margin-top: 130px;
         margin-left: 20px;
     }
     .nav-bar{
         padding-right: 30px;
+        padding-top: 10px;
     }
     .nav-item{
-        margin-left: 30px;
+        margin-left: 40px;
     }
 }
