@@ -34,7 +34,8 @@
 
 .intro-animation-one { animation-delay: 0.5s; }
 .intro-animation-two { animation-delay: 1s; }
-.nav-item-one-animation { animation-delay: 1.5s; }
-.nav-item-two-animation { animation-delay: 2s; }
-.nav-item-three-animation { animation-delay: 2.5s; }
+.intro-animation-three { animation-delay: 1.5s; }
+.nav-item-one-animation { animation-delay: 2s; }
+.nav-item-two-animation { animation-delay: 2.5s; }
+.nav-item-three-animation { animation-delay: 3s; }
 
